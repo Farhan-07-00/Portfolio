@@ -10,7 +10,7 @@ export const profile = {
   locationCoords: { lat:  22.735801, lng: 88.456018},
   availability: 'Open to Remote · Internship · Full-time',
   email:     'fakthar930@gmail.com',
-  photo:     'public/assets/profile.jpg.png',           // TODO: replace with your photo
+  photo:     '/assets/profile.png',           // TODO: replace with your photo
   resumeUrl: 'public/assets/CV.pdf',            // TODO: drop resume.pdf in /public/assets/
   social: {
     github:   'https://github.com/Farhan-07-00',

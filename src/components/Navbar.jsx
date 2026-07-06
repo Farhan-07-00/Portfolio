@@ -149,7 +149,7 @@ export default function Navbar() {
                   ── Replace this with <img> once you have your photo:
                   <img src="/assets/profile.jpg" alt="Farhan" className="w-full h-full object-cover" />
                 */}
-                <img src="public/assets/profile2.jpg.png" alt="Farhan" className="w-full h-full object-cover object-center" />
+                <img src="/assets/profile2.png" alt="Farhan" className="w-full h-full object-cover object-center" />
               </div>
             </div>
           </div>
