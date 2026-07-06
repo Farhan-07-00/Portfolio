@@ -248,7 +248,7 @@ export default function Hero() {
                       <img src="/assets/profile.jpg" alt="Farhan Akthar" className="w-full h-full object-cover" />
                     */}
                     <img
-  src="public/assets/profile.jpg.png"
+  src="/assets/profile.png"
   alt="Farhan Akthar"
    className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
    draggable={false}
