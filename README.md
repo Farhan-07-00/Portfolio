@@ -4,7 +4,7 @@ A modern, responsive portfolio showcasing my projects, skills, and experience in
 
 ## 🌐 Live Demo
 
-🔗 https://YOUR-PORTFOLIO-LINK
+🔗 https://farhan-akthar.netlify.app/
 
 ## ✨ Features
 
@@ -37,8 +37,8 @@ npm run dev
 ## 👨‍💻 Connect
 
 - 🌐 Portfolio: https://YOUR-PORTFOLIO-LINK
-- 💼 LinkedIn: https://linkedin.com/in/YOUR_USERNAME
-- 📧 Email: YOUR_EMAIL
+- 💼 LinkedIn: https://github.com/Farhan-07-00
+- 📧 Email: fakthar930@gmail.com
 
 ---
 
