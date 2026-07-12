@@ -11,7 +11,7 @@ export const profile = {
   availability: 'Open to Remote · Internship · Full-time',
   email:     'fakthar930@gmail.com',
   photo:     '/assets/profile.png',           // TODO: replace with your photo
-  resumeUrl: 'public/assets/CV.pdf',            // TODO: drop resume.pdf in /public/assets/
+  resumeUrl: '/assets/CV.pdf',            // TODO: drop resume.pdf in /public/assets/
   social: {
     github:   'https://github.com/Farhan-07-00',
     linkedin: 'https://www.linkedin.com/in/farhan-akthar-167a31324/',
