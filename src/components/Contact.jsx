@@ -58,21 +58,42 @@ export default function Contact() {
     setErrors(v); setTouched({ name:true, email:true, subject:true, message:true })
     if (Object.keys(v).length) return
     setStatus('sending')
-    try {
-      // Uncomment when @emailjs/browser is installed:
-      
-      await emailjs.send(emailjsConfig.SERVICE_ID, emailjsConfig.TEMPLATE_ID, form, emailjsConfig.PUBLIC_KEY)
-      
-      setStatus('success')
-      setToast({ ok:true, msg:'Message sent. Talk soon.' })
-      setForm({ name:'', email:'', subject:'', message:'' }); setTouched({})
-    } catch {
-      setStatus('error')
-      setToast({ ok:false, msg:'Something went wrong — email me directly.' })
-    } finally {
-      setTimeout(() => setToast(null), 4500)
-      setTimeout(() => setStatus('idle'), 1600)
-    }
+ try {
+  await emailjs.send(
+    emailjsConfig.SERVICE_ID,
+    emailjsConfig.TEMPLATE_ID,
+    form,
+    emailjsConfig.PUBLIC_KEY
+  )
+
+  setStatus('success')
+  setToast({
+    ok: true,
+    msg: 'Message sent. Talk soon.'
+  })
+
+  setForm({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  })
+
+  setTouched({})
+
+} catch (error) {
+  console.error('EmailJS Error:', error)
+
+  setStatus('error')
+  setToast({
+    ok: false,
+    msg: `Failed: ${error?.text || 'Check EmailJS configuration'}`
+  })
+
+} finally {
+  setTimeout(() => setToast(null), 4500)
+  setTimeout(() => setStatus('idle'), 1600)
+}
   }
   
 
