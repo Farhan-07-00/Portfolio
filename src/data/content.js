@@ -214,6 +214,7 @@ export const experience = [
     title:    'Generative AI and Prompt Engineering Intern',
     org:      'Indian Institute of Technology, Roorkee',
     duration: 'Jun 2026 — Aug 2026',
+    certificate: "/certificate/iitroorkee.jpg",
     points:   [
       'Developed and fine-tuned large language models for specific domain applications',
       'Implemented prompt engineering techniques to optimize model responses for various tasks',

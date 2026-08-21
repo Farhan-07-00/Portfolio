@@ -52,6 +52,25 @@ export default function Experience() {
                     </li>
                   ))}
                 </ul>
+                 {exp.certificate && (
+  <a
+    href={exp.certificate}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 mt-5 px-4 py-2 rounded-lg
+               border border-violet-500/30
+               bg-violet-500/10
+               text-violet-300 text-sm
+               hover:bg-violet-500/20
+               hover:border-violet-400/50
+               hover:text-violet-200
+               transition-all duration-300"
+  >
+    View Certificate
+    <span className="text-xs">↗</span>
+  </a>
+)}
+                
               </div>
             </Reveal>
           ))}
