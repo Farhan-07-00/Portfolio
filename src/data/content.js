@@ -36,10 +36,10 @@ export const greetings = [
 ]
 
 export const aboutStats = [
-  { label: 'Projects Completed', value: 12, suffix: '+' },
-  { label: 'Certifications',     value: 9,  suffix: '+' },
-  { label: 'Months Experience',  value: 14, suffix: ''  },
-  { label: 'Technologies Used',  value: 22, suffix: '+' },
+  { label: 'Projects Completed', value: 4, suffix: '+' },
+  { label: 'Certifications',     value: 6,  suffix: '+' },
+  { label: 'Months Experience',  value: 6, suffix: ''  },
+  { label: 'Technologies Used',  value: 12, suffix: '+' },
 ]
 
 export const aboutBio = [
