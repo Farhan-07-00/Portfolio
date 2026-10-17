@@ -247,8 +247,8 @@ export const certifications = [
   { name:'AWS Academy Graduate - Machine Learning Foundations - Training Badge',               issuer:'Amazon Web Services',              date:'2026', category:'Machine Learning',   verify:'https://www.credly.com/badges/3ecad591-c5b6-4549-b407-2ee8e4b67554/linked_in_profile' },
     { name:'IoT Edge Computing and IoT Analytics',          issuer:'Infosys Springboard',                               date:'2024', category:'ML',           verify:'https://verify.onwingspan.com/' },
   { name:'GLOBAL EMPLOYABILITY TEST 2025',  issuer:'*ets',                              date:'2025', category:'AI',           verify:'' },
-  { name:'Python for Everybody',          issuer:'Coursera (University of Michigan)',   date:'2023', category:'Python',       verify:'#' },
-  { name:'AWS Cloud Practitioner',        issuer:'Amazon Web Services',                 date:'2025', category:'Cloud',        verify:'#' },
+  { name:'Agentic AI Certified Foundation Associate',          issuer:'Oracle',   date:'2026', category:'AI',       verify:'#' },
+  { name:'Gen AI Tools',        issuer:'Nasscom',                 date:'2026', category:'Generative AI',        verify:'#' },
   { name:'Design Thinking',               issuer:'Coursera ETA',                        date:'2025', category:'AI',           verify:'#' },
 ]
 
